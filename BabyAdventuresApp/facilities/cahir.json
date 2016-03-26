@@ -1,0 +1,31 @@
+{
+    "Location": {
+        "Opening": "Standard Hotel Opening Hours", 
+        "Parking": "Yes", 
+        "type": "Hotel",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Follow all signs for the town centre. Either coming from Cork, Clonmel, Limerick or Waterford, this will lead you to the main square in Cahir. Cahir House Hotel is located here."
+    }, 
+    "description": "Located in the centre of Cahir town, with ample parking at the rear, Cahir House Hotel has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "Yes - Beside Cahir Castle", 
+        "shop": "Yes - An abundance of shops in Cahir town", 
+        "petrol": "Yes - Several located on the outskirts of Cahir", 
+        "garda": "Yes", 
+        "church": "Yes"
+    }, 
+    "id": "Cahir", 
+    "images": [
+        "img/cahirhouse.png", 
+        "img/cahir.png"
+    ], 
+    "name": "Cahir House Hotel", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Shared with Disabled Toilet",
+        "eating": "Yes - Hotel Bar/Restaurant",
+        "highchair": "Yes"
+    }
+}

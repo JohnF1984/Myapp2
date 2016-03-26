@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Tourist Centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Head for New Ross town centre. Go over the bridge and follow signs for Wexford. The centre will be on the right hand side by the river."
+    }, 
+    "description": "Located on the banks of the Nore, on the main N24, this facility is easy to find.", 
+    "nearby": {
+        "playground": "Yes", 
+        "shop": "Yes", 
+        "petrol": "Yes", 
+        "garda": "Yes", 
+        "church": "Yes"
+    }, 
+    "id": "New Ross", 
+    "images": [
+        "img/newross1.png", 
+        "img/new ross.jpg" 
+
+    ], 
+    "name": "New Ross Tourist Office", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Shared with Disabled Toilet",
+        "eating": "Yes - Restaurant within",
+        "highchair": "Yes"
+    }
+}

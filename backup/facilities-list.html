@@ -1,0 +1,28 @@
+<div class="row"> 
+   <div class="col-md-2">
+      <!--Sidebar content-->
+      <br>
+      <br><br>
+
+      Enter Your Location: <input ng-model="query">
+      <br>
+      <br>
+      <br>
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">County</option>
+        <option value="age">Town</option>
+      </select>
+    </div>
+
+   <div class="col-md-10">
+
+     <ul  class="phones">
+        <li ng-repeat="phone in phones | filter:{name: query } | orderBy:orderProp" class="thumbnail">
+           <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
+           <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
+           <p>{{phone.snippet}}</p>
+        </li>
+      </ul>
+    </div>
+   </div>

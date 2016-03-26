@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Shopping centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Follow all signs for Dublin city centre, eventually finding your way to the quay. Once here follow signs for O'Connell Street before taking the first left turn down Bathelors Walk. The car park for the shopping centre will be on your right."
+    }, 
+    "description": "Located in the centre of Dublin, with ample parking underneath, The Jervis Shopping Centre has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "No", 
+        "shop": "Yes", 
+        "petrol": "No", 
+        "garda": "Yes", 
+        "church": "No"
+    }, 
+    "id": "Jervis", 
+    "images": [
+        "img/jervissc.png", 
+        "img/jervis.png" 
+
+    ], 
+    "name": "Jervis Shopping Centre", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Shared with Disabled Toilet",
+        "eating": "Yes - Restaurant/Cafe's within",
+        "highchair": "Yes"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Shopping centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Follow all signs for the city centre, eventually finding your way to the quay. Once here go past the bus station and the shopping centre and the car park is on the left."
+    }, 
+    "description": "Located in the centre of Cork, with ample parking provided, Merchants Quay shopping centre has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "No", 
+        "shop": "Yes", 
+        "petrol": "No", 
+        "garda": "Yes", 
+        "church": "No"
+    }, 
+    "id": "Merchants", 
+    "images": [
+        "img/merchants quay.png", 
+        "img/merchants.jpg" 
+
+    ], 
+    "name": "Merchants Quay Shopping Centre", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - independent space provided",
+        "eating": "Yes - Restaurant within",
+        "highchair": "Yes"
+    }
+}

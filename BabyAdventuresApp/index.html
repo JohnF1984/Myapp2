@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" ng-app="BabyAdventuresApp" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Application for Parents" content="">
+  <meta name="John Fitzpatrick" content="">
+  <title>The Baby Adventures App</title>
+  <link rel="icon" href="../BabyAdventuresApp/img/baby.bmp">
+     <script type="text/javascript" src="../scripts/angular.min.js"></script>
+     <script type="text/javascript" src="../scripts/angular-route.min.js"></script>
+    <link href="../styles/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./#/landing">Home</a> <a class="navbar-brand" >|</a> 
+          <a class="navbar-brand" href="./#/feedback">Share your Baby Adventure Stories</a><a class="navbar-brand" >|</a> 
+          <a class="navbar-brand" href="./#/facilities">Find Breastfeeding facilities</a> <a class="navbar-brand" >|</a> 
+          <a class="navbar-brand" href="./#/about">About this App</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <a class="btn btn-primary btn-lg" href="./#/home" role="button">Log out &raquo;</a>
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+</head>
+<body ng-app="babyApp">
+  
+      <div class="container-fluid">
+          <div ng-view ></div>         
+      </div>
+      <script src="app.js"></script>
+      <script src="http://code.angularjs.org/1.2.6/angular.js"></script>
+      <!--script src="bower_components/angular-route/angular-route.js"></script-->
+      <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+      <script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.min.js"></script>
+      <script src="home/home.js"></script>
+      <script src="register/register.js"></script>
+    </body>
+</html>

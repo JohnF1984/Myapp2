@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Shopping centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Follow all signs for the city centre, eventually finding your way to the quay. Once here follow signs for the shopping centre and the car park is underneath."
+    }, 
+    "description": "Located in the centre of Waterford, with ample parking underneath, City Square has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "No", 
+        "shop": "Yes", 
+        "petrol": "No - would have to travel to outskirts of Waterford", 
+        "garda": "Yes", 
+        "church": "Yes"
+    }, 
+    "id": "Waterford", 
+    "images": [
+        "img/citysquare sc.png", 
+        "img/city square.png" 
+
+    ], 
+    "name": "City Square Shopping Centre", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Shared with Disabled Toilet",
+        "eating": "Yes - Hotel Bar/Restaurant",
+        "highchair": "Yes"
+    }
+}

@@ -1,0 +1,47 @@
+<div class="row"> 
+   <div class="col-md-2">
+      <!--Sidebar content-->
+       <Div class="sidebar">
+
+      Use the Search filters here to find facilities in your area or find what the most popular location is
+      <br>
+      <br>
+
+      Search by County: <input ng-model="query">
+      <br>
+      <br>
+      Search by Town: <br><input ng-model="townquery">
+      <br>
+      <br>
+      <br>
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Place</option>
+        <option value="snippet">Town</option>
+        <option value="county">County</option>
+        <option value="-upvotes">Most Popular</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="find">
+        <br>
+      <p>Have we missed somewhere? <br><br> Let us know...<br><br><a class="btn btn-primary btn-lg" href="./#/add" role="button">Tell us new Locations &raquo;</a></p>
+    </div>
+    </div>
+    </div>
+
+   <div class="col-md-10">
+
+     <ul  class="phones">
+        <li ng-repeat="phone in Facility | filter:{county: query } | filter:{snippet: townquery } |orderBy:orderProp" class="thumbnail">
+          <span class="glyphicon glyphicon-thumbs-up"
+                 ng-click="incrementUpvotes(phone)"></span>{{phone.upvotes}}
+           <a href="#/facilities/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
+           <a href="#/facilities/{{phone.id}}" class="thumb1">{{phone.name}}</a>
+           <br /><br /><p>Town:{{phone.snippet}}</p><p>County:{{phone.county}}</p><p>Phone Number:{{phone.phoneno}}</p>            
+        </li>
+      </ul>
+    </div>
+   </div>

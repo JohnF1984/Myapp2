@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Shopping centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Follow all signs for the city centre and the train station. The shopping centre in adjacent to the station."
+    }, 
+    "description": "Located in the centre of Kilkenny, with ample parking provided, McDonagh Junction SHopping Centre has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "Yes - Play area", 
+        "shop": "Yes", 
+        "petrol": "No - would have to travel to outskirts of Kilkenny", 
+        "garda": "Yes", 
+        "church": "Yes"
+    }, 
+    "id": "Kilkenny", 
+    "images": [
+        "img/mdsc.png", 
+        "img/mcdonagh.png" 
+
+    ], 
+    "name": "McDonagh Junction Shopping Centre", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Shared with Disabled Toilet",
+        "eating": "Yes - RestaurantS within",
+        "highchair": "Yes"
+    }
+}

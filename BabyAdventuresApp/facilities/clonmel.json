@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Shopping centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Follow all signs for Waterford approaching Clonmel, eventually finding your way out the Davis Road. The Showgrounds shopping centre will be on your right just past Larry O'Keefe Furniture."
+    }, 
+    "description": "Located on the outskirts of Clonmel, with ample parking provided, The Showgrounds has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "Yes - Play area", 
+        "shop": "Yes", 
+        "petrol": "Yes - within 1km", 
+        "garda": "No", 
+        "church": "No"
+    }, 
+    "id": "Clonmel", 
+    "images": [
+        "img/showgrounds.png", 
+        "img/clonmel.bmp" 
+
+    ], 
+    "name": "Showgrounds Shopping Centre", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Excellent Independent facilities",
+        "eating": "Yes - Restaurant",
+        "highchair": "Yes"
+    }
+}

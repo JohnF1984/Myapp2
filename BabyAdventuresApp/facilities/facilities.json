@@ -1,0 +1,92 @@
+[ 
+    {
+        "age": 1, 
+        "id": "Cahir",
+        "upvotes": 10, 
+        "imageUrl": "img/cahir.png", 
+        "name": "Cahir House Hotel",
+        "phoneno": "052 7426225", 
+        "county": "Tipperary",
+        "snippet": "Cahir"
+    }, 
+    {
+        "age": 2, 
+        "id": "Waterford",
+        "upvotes": 3, 
+        "imageUrl": "img/city square.png", 
+        "name": "City Square Shopping Centre",
+        "phoneno": "051 2345566", 
+        "county": "Waterford",
+        "snippet": "Waterford City"
+    }, 
+    {
+        "age": 3, 
+        "id": "New Ross",
+        "upvotes": 1, 
+        "imageUrl": "img/New Ross.jpg", 
+        "name": "New Ross Tourist Office",
+        "phoneno": "054 1234321", 
+        "county": "Wexford",
+        "snippet": "New Ross"
+    }, 
+    {
+        "age": 4, 
+        "id": "Kilkenny",
+        "upvotes": 2, 
+        "imageUrl": "img/mcdonagh.png", 
+        "name": "McDonagh Junction Shopping Centre",
+        "phoneno": "059 34567", 
+        "county": "Kilkenny",
+        "snippet": "Kilkenny City"
+    }, 
+    {
+        "age": 5, 
+        "id": "Mahon", 
+        "upvotes": 7,
+        "imageUrl": "img/MSC.bmp", 
+        "name": "Mahon Point Shopping Centre",
+        "phoneno": "021 2223334", 
+        "county": "Cork",
+        "snippet": "Mahon"
+    }, 
+    {
+        "age": 6, 
+        "id": "Merchants", 
+        "upvotes": 6,
+        "imageUrl": "img/Merchants.jpg", 
+        "name": "Merchants Quay Shopping Centre",
+        "phoneno": "021 3332231", 
+        "county": "Cork",
+        "snippet": "Cork City"
+    }, 
+    {
+        "age": 7, 
+        "id": "Clonmel", 
+        "upvotes": 23,
+        "imageUrl": "img/clonmel.bmp", 
+        "name": "Showgrounds Shopping Centre",
+        "phoneno": "052 74265326", 
+        "county": "Tipperary",
+        "snippet": "Clonmel"
+    }, 
+    {
+        "age": 8, 
+        "id": "Jervis", 
+        "upvotes": 5,
+        "imageUrl": "img/jervis.png", 
+        "name": "Jervis Shopping Centre",
+        "phoneno": "01 32413552", 
+        "county": "Dublin",
+        "snippet": "Dublin 1"
+    }, 
+    {
+        "age": 9, 
+        "id": "Dungarvan", 
+        "upvotes": 20,
+        "imageUrl": "img/dungarvan.jpg", 
+        "name": "Dungarvan Shopping Centre",
+        "phoneno": "051 12345", 
+        "county": "Waterford",
+        "snippet": "Dungarvan"
+    }
+]

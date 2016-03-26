@@ -1,0 +1,331 @@
+ body {
+      padding-top: 80px;
+    }
+
+    .phones {
+      list-style: none;
+      font-size:1em;
+    }
+
+    .thumb {
+      float: left;
+      margin: -0.5em 1em 1.5em 0;
+      padding-bottom: 1em;
+      height: 100px;
+      width: 150px;
+      font-size: 1.3em;
+    }
+    .thumb1 {
+      font-size: 1.3em;
+    }
+
+    .phones li {
+      height: 155px;
+      width: 1150px;
+      padding-top: 15px;
+    }
+
+    .find {
+      font-size: 1.1em;
+      font: sans-serif;
+    }
+
+    .glyphicon-thumbs-up { 
+        cursor:pointer 
+    }
+    .sidebar {
+      font-size: 1.0em; 
+    }
+
+    
+
+    /** Detail View **/
+    img.Facilities {
+
+      border: 1px solid black;
+
+      background-color: white;
+      padding: 2em;
+      height: 400px;
+      width: 400px;
+      text-align: right;
+      font-size: 1.5em;
+    }
+
+    ul.Facilities-thumbs {
+      margin: 0;
+      list-style: none;
+      text-align: left;
+    }
+
+    ul.Facilities-thumbs li {
+      border: 1px solid black;
+      display: inline-block;
+      margin: 1em;
+      background-color: white;
+    }
+
+    ul.Facilities-thumbs img {
+      height: 100px;
+      width: 100px;
+      padding: 1em;
+    }
+
+    span{
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    dt {
+      font-weight: bold;
+    }
+
+    h1 {
+      border-bottom: 1px solid gray;
+    }
+
+    element.style {
+}
+.form-control1 {
+    display: block;
+    width: 100%;
+    height: 94px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheetinput:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+user agent stylesheetinput {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border: 2px inset;
+}
+user agent stylesheetinput, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheetinput, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+Inherited from body
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html.ng-scope
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+margin‒
+‒border1
+1padding6
+12832 × 2012
+61
+1‒
+‒
+
+Filter
+
+Show all
+background-color
+rgb(255, 255, 255)
+background-image
+none
+border-bottom-color
+rgb(204, 204, 204)
+border-bottom-left-radius
+4px
+border-bottom-right-radius
+4px
+border-bottom-style
+solid
+border-bottom-width
+1px
+border-image-outset
+0px
+border-image-repeat
+stretch
+border-image-slice
+100%
+border-image-source
+none
+border-image-width
+1
+border-left-color
+rgb(204, 204, 204)
+border-left-style
+solid
+border-left-width
+1px
+border-right-color
+rgb(204, 204, 204)
+border-right-style
+solid
+border-right-width
+1px
+border-top-color
+rgb(204, 204, 204)
+border-top-left-radius
+4px
+border-top-right-radius
+4px
+border-top-style
+solid
+border-top-width
+1px
+box-shadow
+rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset
+box-sizing
+border-box
+color
+rgb(85, 85, 85)
+cursor
+auto
+display
+block
+font-family
+'Helvetica Neue', Helvetica, Arial, sans-serif
+font-size
+14px
+font-stretch
+normal
+font-style
+normal
+font-variant
+normal
+font-weight
+normal
+height
+34px
+letter-spacing
+normal
+line-height
+20px
+margin-bottom
+0px
+margin-left
+0px
+margin-right
+0px
+margin-top
+0px
+padding-bottom
+6px
+padding-left
+12px
+padding-right
+12px
+padding-top
+6px
+text-align
+start
+text-indent
+0px
+text-rendering
+auto
+text-shadow
+none
+text-transform
+none
+transition-delay
+0s, 0s
+transition-duration
+0.15s, 0.15s
+transition-property
+border-color, box-shadow
+transition-timing-function
+ease-in-out, ease-in-out
+width
+858px
+word-spacing
+0px
+writing-mode
+horizontal-tb
+-webkit-appearance
+none
+-webkit-rtl-ordering
+logical
+-webkit-user-select
+text
+Rendered Fonts
+Arial—20 glyphs
+
+Console
+
+
+
+
+Preserve log
+.
+.
+

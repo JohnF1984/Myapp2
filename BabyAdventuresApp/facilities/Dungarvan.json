@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Shopping centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "From the ring road, follow the signs for Town centre at the junction where McDonalds is. Keep on this road until you see the shopping centre. Dunnes are the anchor tennants and parking is provided longside and underneath."
+    }, 
+    "description": "Located in the centre of Dungarvan, with ample parking provided, Dungarvan Shopping Centre has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "Yes - within walking distance", 
+        "shop": "Yes", 
+        "petrol": "No", 
+        "garda": "Yes", 
+        "church": "Yes"
+    }, 
+    "id": "Dungarban", 
+    "images": [
+        "img/dsc.png", 
+        "img/dungarvan.jpg" 
+
+    ], 
+    "name": "Dungarvan Shopping Centre", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Shared with Disabled Toilet",
+        "eating": "Yes - Restaurant/Cafe within",
+        "highchair": "Yes"
+    }
+}

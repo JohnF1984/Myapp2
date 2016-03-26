@@ -1,0 +1,32 @@
+{
+    "Location": {
+        "Opening": "10am to 6pm", 
+        "Parking": "Yes", 
+        "type": "Shopping centre",
+        "Link": "http:\\www.google.ie"
+    }, 
+    "directions": {
+        "How": "Go through the Jack Lynch tunnell following signs for the West and Killarney. Take the signs marked for Mahon and then follow signs for the Mahon Point Shopping centre"
+    }, 
+    "description": "Located on the outskirts of Cork city, Mahon Point is easily accessable and has excellent baby changing facilities and private breastfeeding facilities", 
+    "nearby": {
+        "playground": "No", 
+        "shop": "Yes", 
+        "petrol": "No", 
+        "garda": "Yes", 
+        "church": "No"
+    }, 
+    "id": "Mahon", 
+    "images": [
+        "img/mahonpoint.png", 
+        "img/msc.bmp" 
+
+    ], 
+    "name": "Mahon Point Shopping Centre", 
+    "facilities": {
+        "private": "Yes", 
+        "babychanging": "Yes - Shared with Disabled Toilet",
+        "eating": "Yes - Restaurants within",
+        "highchair": "Yes"
+    }
+}

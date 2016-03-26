@@ -1,0 +1,64 @@
+<div class="col-md-10">
+            <div class="page-header">
+              <h1>Tell us other Breastfeeding Facilities</h1>
+            </div>
+            <form name="postForm" novalidate ng-submit="addPost()"
+                style="margin-top:30px;">
+                <h4>We will add them to the list</h4>
+
+                
+                <div class="form-group">
+                  <input type="text" name="location" 
+                    class="form-control" placeholder="What is the name of the place?" 
+                    ng-model="newPost.location" 
+                    ng-required ng-minlength="3" ng-maxlength="100"></input>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" name="town" 
+                    class="form-control" placeholder="What Town is it in?" 
+                    ng-model="newPost.town" 
+                    ng-required ng-minlength="3" ng-maxlength="25"></input>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" name="county" 
+                    class="form-control" placeholder="What County is it in?" 
+                    ng-model="newPost.county" 
+                    ng-required ng-minlength="3" ng-maxlength="25"></input>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" name="username"
+                  class="form-control" placeholder="Username"
+                  ng-model="newPost.username" ng-required> </input>
+                </div>
+
+                <button type="submit" class="btn btn-primary"
+                    ng-disabled="postForm.$pristine || (postForm.$dirty && postForm.$invalid) ">
+                Post</button>
+              </form> 
+              <div class="feedback">
+              <h1>What has been recommended so far?</h1>
+            </div>
+            We will visit and assess the submissions and if they meet the set standards we will add them to the list<br><br>
+            <div ng-repeat="post in Adds |orderBy:upvotes">
+                <span class="glyphicon glyphicon-thumbs-up"
+                 ng-click="incrementUpvotes(post)"></span>
+                     {{post.upvotes}}
+                     <span class="main-text ">
+                     <a ng-show="post.location != null">
+                        {{post.location}}
+                     </a></span>,
+                     <span class="main-text ">
+                     <a ng-show="post.town != null">
+                        {{post.town}}
+                     </a></span>,
+                     <span class="main-text ">
+                     <a ng-show="post.county != null">
+                        {{post.county}}
+                     </a></span>
+                    </span>
+            </div>
+            
+        </div>
