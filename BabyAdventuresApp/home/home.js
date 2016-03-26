@@ -11,7 +11,7 @@ angular.module('myApp.home', ['ngRoute','firebase'])
 
 
 
-.controller('HomeCtrl', ['$scope','$location','CommonProp','$firebaseAuth',function($scope,$location,$CommonProp,$firebaseAuth) {
+.controller('HomeCtrl', ['$scope','$location','CommonProp','$firebaseAuth',function($scope,$location,CommonProp,$firebaseAuth) {
  var firebaseObj = new Firebase("https://blazing-inferno-8429.firebaseio.com");
     var loginObj = $firebaseAuth(firebaseObj);
   
